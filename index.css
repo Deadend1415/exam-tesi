@@ -11,8 +11,8 @@ body{
     display: grid;
     overflow: hidden;
     height: 100%;
-    margin: 5%;
-    border-radius: 2%;
+    margin-bottom: 5%;
+    border-radius: 2rem;
     border: 2px solid transparent;
     grid-template-columns: 50% 50% ;
     grid-template-rows:20% 60% 20% ;
@@ -36,37 +36,6 @@ body{
     align-self: center;
     grid-column: 1 / span 2;
     grid-row: 2/ span 1;
-}
-
-.button {
-    background-color: #04AA6D; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2%;
-    margin-bottom: 10%;
-    width: 50%;
-    align-self: center;
-    justify-self: center;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    grid-row: 3 ;
-    border-radius: 5%;
-}
-
-.button1 {
-    background-color: rgba(255, 255, 255, 0.11);
-    color: black;
-    border: 2px solid #f1c679;
-}
-
-.button1:hover {
-    background-color: #f1c679;
-    color: white;
 }
 
 p{
@@ -111,7 +80,7 @@ ul {
     background-color: #ffcc89;
 }
 
-li {
+/*li {
     float: left;
 }
 
@@ -125,7 +94,7 @@ li a {
 
 li a:hover {
     background-color: #111;
-}
+}*/
 
 img{
     max-width: 100%;
