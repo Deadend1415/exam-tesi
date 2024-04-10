@@ -17,6 +17,11 @@ body{
     align-items: center;
 }
 
+@keyframes example {
+    0%  {position: relative;top: 20%}
+    99.9%  {top: -20%;}
+}
+
 .wrapper {
     font-family: "Sansation Light";
     font-size: large;
@@ -63,10 +68,25 @@ img{
     justify-content: center;
     border-radius: 2rem;
     flex-direction: column;
+    transition: width 2s,font-size 1s;
+}
+
+.content:hover{
+    width: 40%;
+    font-size: larger;
 }
 
 .first{
     justify-content: center;
+    animation: example 5s ease-out 100ms;
+}
+
+.second{
+    animation: example 5s ease-out 100ms;
+}
+
+.third{
+    animation: example 5s ease-out 200ms;
 }
 
 p{
@@ -90,6 +110,13 @@ mark{
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 20% 15% 15% 15% 15%;
+    transition: width 2s,font-size 2s;
+    animation: example 5s ease-out 1ms;
+}
+
+.grid-content:hover{
+    width: 40%;
+    font-size: larger;
 }
 
 h1{
