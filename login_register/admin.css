@@ -34,7 +34,6 @@
   }
  
   fieldset
- 
   {
   border: 0;
   padding: 0;
@@ -42,7 +41,7 @@
   height: 50%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   }
  
   #inputs input

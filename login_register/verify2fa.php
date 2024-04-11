@@ -57,7 +57,7 @@ $query = "UPDATE tbl_test SET 2FA = NULL, 2FA_EXPIRE = NULL
 mysqli_query($conn,$query);
             //check if otp matches
             if($fa==$otp){
-              echo "<script>alert('Successfully logged in'); location.href = '../main/main.php';</script>";}
+              echo "<script>alert('Successfully logged in'); location.href = '../main/main.html';</script>";}
               else{
                   echo "<script>alert('Incorrect OTP!'); location.href = '../index.html';</script>";}
 }else{

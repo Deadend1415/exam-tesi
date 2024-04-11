@@ -79,6 +79,7 @@ p{
 
 .wrapper{
     height: 100vh;
+    font-family: "Sansation Light";
     background-image: url("resources/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
