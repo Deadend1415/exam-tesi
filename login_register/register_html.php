@@ -5,7 +5,7 @@ ob_start();
 <html>
 <head>
 
-    <title>register page</title>
+    <title>Register page</title>
 
     <!-- Pannello di gestione accesso-->
     <link href="admin.css" rel="stylesheet" type="text/css" />
