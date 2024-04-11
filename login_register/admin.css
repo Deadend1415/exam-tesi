@@ -40,7 +40,9 @@
   padding: 0;
   margin: 1%;
   height: 50%;
-
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   }
  
   #inputs input
